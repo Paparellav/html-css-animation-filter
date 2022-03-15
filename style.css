@@ -257,10 +257,75 @@
 
 /* SOLUZIONE ES.13  */
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhite 1s linear infinite;
+    animation: moveTopWhite13 1s linear infinite;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhite 1s linear infinite;
+    animation: moveBottomWhite13 1s linear infinite;
+}
+
+@keyframes moveTopWhite13 {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    20% {
+        top: -10px;
+        left: 100%;
+    }
+
+    40% {
+        top: 100%;
+        left: 100%;
+    }
+
+    60% {
+        top: 100%;
+        left: 50%;
+    }
+
+    80% {
+        top: 100%;
+        left: 10%;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes moveBottomWhite13 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    20% {
+        bottom: -10px;
+        right: 100%;
+    }
+
+    40% {
+        bottom: 100%;
+        right: 100%;
+    }
+
+    60% {
+        bottom: 100%;
+        right: 50%;
+    }
+
+    80% {
+        bottom: 100%;
+        right: 20%;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+
 }
 /* /SOLUZIONE ES.13  */
