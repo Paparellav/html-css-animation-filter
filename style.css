@@ -70,14 +70,56 @@
 }
 /* /SOLUZIONE ES.5 */
 
+/* IMMAGINE PER ES 6-7-8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/* /IMMAGINE PER ES 6-7-8 */
 
+/* SOLUZIONE ES.6 */
+.ex-6-img {
+    transition: all 1.5s;
+}
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+/* /SOLUZIONE ES.6 */
+
+/* SOLUZIONE ES.7 */
+.ex-7-img {
+    transition: all 1.5s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(.8) grayscale(.5);
+}
+/* /SOLUZIONE ES.7 */
+
+/* SOLUZIONE ES.8 */
+.ex-8-img {
+    transition: all 1.5s;
+}
+
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter: blur(1.5px);
+}
+/* /SOLUZIONE ES.8 */
+
+/* SOLUZIONE ES.9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 3.5s;
 }
+
+.ex-9-img:hover {
+    border-radius: 25PX;
+    filter: grayscale(.5) sepia(.6);
+    transform: scale(.7);
+}
+/* /SOLUZIONE ES.9 */
+
 .ex-10-icon {
     font-size: 60px;
 }
